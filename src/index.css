@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: serif; */
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@theme {
+  --color-stb-gray-10: oklch(0.8645 0.0033 197.1);
+  --color-stb-yellow-30: oklch(0.6052 0.1763 41.88);
+  --color-stb-yellow-10: oklch(0.8277 0.1667 79.6);
+  --color-stb-yellow-10-30: oklch(0.9068 0.1196 90.05);
+  --color-stb-blue-10: oklch(0.8601 0.098 209.47);
+  --color-stb-blue-20: oklch(0.7133 0.1248 213.24);
+  --color-stb-blue-40: oklch(0.3037 0.08476 249.4532);
+}
+
+.card {
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.07);
+}
+
+.submit-button {
+  background: linear-gradient(180deg, var(--color-stb-yellow-10-30) 0%, var(--color-stb-yellow-10) 100%);
+}
+
+.submit-button:hover {
+  background: --color(--color-crystal-light)
+}
+
+body {
+  background-color: rgb(from var(--color-stb-gray-10) r g b / 0.2);
+}
+
+
