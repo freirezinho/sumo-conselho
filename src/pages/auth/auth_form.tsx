@@ -70,7 +70,7 @@ export const AuthForm = () => {
           if (isValidCode(firstDigit + secondDigit + thirdDigit + input.value)) {
             setErrorMessage("")
             setUserId(firstDigit + secondDigit + thirdDigit + input.value);
-            navigate("/sustaining");
+            navigate("/apoios");
           } else {
             setErrorMessage("Código inválido. Por favor, tente novamente ou procure o secretário executivo.");
             if (firstDigitRef.current) {

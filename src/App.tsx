@@ -14,8 +14,8 @@ function App() {
             <Routes>
               <Route element={<PrivateRoute />}>
                 <Route path='/' element={<SustainingForm />} />
-                <Route path='/sustaining' element={<SustainingForm />} />
-                <Route path='/thanks' element={<ThankYou />} />
+                <Route path='/apoios' element={<SustainingForm />} />
+                <Route path='/obrigado' element={<ThankYou />} />
               </Route>
               <Route path='/auth' element={<AuthForm />} />
             </Routes>

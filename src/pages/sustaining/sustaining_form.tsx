@@ -110,7 +110,7 @@ export const SustainingForm = () => {
              console.error("Error caching token:", err)
             }
       })
-      .finally(() => navigate("/thanks"));
+      .finally(() => navigate("/obrigado"));
     } else {
       setErrorMessage("Ocorreu um erro ao enviar suas respostas. Por favor, tente novamente mais tarde.");
       throw new Error(data.error || 'Unknown error occurred');
@@ -130,7 +130,7 @@ export const SustainingForm = () => {
       printDebug("Cached token found:", data);
       if (data === true) {
         printDebug("Token is valid.")
-        navigate("/thanks");
+        navigate("/obrigado");
       } else {
         printDebug("Token is invalid.");
       }
