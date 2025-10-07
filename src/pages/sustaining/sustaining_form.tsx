@@ -165,8 +165,8 @@ export const SustainingForm = () => {
               <div className="table-header-group ...">
                 <div className="table-row font-bold">
                   <div className="table-cell">Nome</div>
-                  <div className="table-cell">Sim</div>
-                  <div className="table-cell">Não</div>
+                  <div className="table-cell mr-2">Sim</div>
+                  <div className="table-cell ml-2">Não</div>
                 </div>
               </div>
               {

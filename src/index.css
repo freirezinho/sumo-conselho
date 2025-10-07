@@ -19,6 +19,7 @@
   --color-stb-blue-10: oklch(0.8601 0.098 209.47);
   --color-stb-blue-20: oklch(0.7133 0.1248 213.24);
   --color-stb-blue-40: oklch(0.3037 0.08476 249.4532);
+  --color-stb-christmas-red: oklch(0.5304 0.2074 22.32);
 }
 
 .card {

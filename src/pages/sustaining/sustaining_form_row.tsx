@@ -26,7 +26,7 @@ export const SustainingFormRow = ({id, calling, name, unit, onChange}: {id: numb
           <input type="radio" id={idYes} name={inputName} className="peer hidden" onChange={handleChange} value="true"/>
         <label
           htmlFor={idYes}
-          className="flex h-6 w-6 cursor-pointer items-center justify-center
+          className="flex h-6 w-6 ml-2 mr-4 cursor-pointer items-center justify-center
         rounded-full border border-gray-300 transition-colors
         
         hover:bg-gray-100
@@ -47,10 +47,10 @@ export const SustainingFormRow = ({id, calling, name, unit, onChange}: {id: numb
         rounded-full border border-gray-300 transition-colors
         
         hover:bg-gray-100
-        peer-checked:border-stb-blue-20
+        peer-checked:border-stb-christmas-red
 
         after:block after:h-3 after:w-3 after:rounded-full
-        after:bg-stb-blue-20 after:transition-transform
+        after:bg-stb-christmas-red after:transition-transform
 
         after:scale-0 peer-checked:after:scale-100"
         >

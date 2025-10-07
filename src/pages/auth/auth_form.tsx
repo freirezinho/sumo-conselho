@@ -101,7 +101,7 @@ export const AuthForm = () => {
    return (
    <section className='h-screen pb-2 flex flex-col justify-between items-center'>
     <NavBar />
-    <main className='h-full flex flex-col justify-center items-center'>
+    <main className='h-full flex flex-col justify-center items-center px-8'>
       <div className='mx-auto flex flex-col max-w-2xl px-12 py-12 rounded-2xl card bg-white'>
       <header className='mb-4'>
         <h1 className='text-3xl text-stb-yellow-30'>Apoios do Sumo Conselho</h1>

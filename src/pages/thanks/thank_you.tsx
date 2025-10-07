@@ -6,7 +6,7 @@ export const ThankYou = () => {
    return (
    <section className='h-screen pb-2 flex flex-col items-center'>
     <NavBar />
-    <main className='mt-2 h-full flex flex-col justify-center items-center'>
+    <main className='mt-2 px-6 h-full flex flex-col justify-center items-center'>
       <div className='mx-auto flex flex-col max-w-2xl px-12 py-12 rounded-2xl card bg-white'>
         <header className='mb-4'>
           <h1 className='text-3xl text-stb-yellow-30'>Apoios do Sumo Conselho</h1>
